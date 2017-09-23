@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  RapidFilter
+//
+//  Created by Yumenosuke Koukata on 10/25/14.
+//  Copyright (c) 2014 Yumenosuke Koukata. All rights reserved.
+//
+
+#ifndef __PrefixHeader__
+#define __PrefixHeader__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
+// ---------- CocoaLumberjack setting ----------
+#ifdef DEBUG // turn on all logging
+static int ddLogLevel = LOG_LEVEL_VERBOSE;
+#else // RELEASE: turn off all logging
+static int ddLogLevel = LOG_LEVEL_OFF;
+#endif
+// ---------------------------------------------
+
+#endif // __PrefixHeader__

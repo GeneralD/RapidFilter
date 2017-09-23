@@ -1,0 +1,49 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CocoaLumberjack (2.0.0-beta3):
+    - CocoaLumberjack/Default
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (2.0.0-beta3)
+  - CocoaLumberjack/Default (2.0.0-beta3):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0-beta3):
+    - CocoaLumberjack/Default
+  - GPUImage (0.1.6)
+  - iCarousel (1.8.1)
+  - NYXImagesKit (2.3)
+  - Overline (0.4.0)
+  - UIColor-HexString (1.1.0)
+
+DEPENDENCIES:
+  - BlocksKit (= 2.2.5)
+  - CocoaLumberjack (= 2.0.0-beta3)
+  - GPUImage (= 0.1.6)
+  - iCarousel (= 1.8.1)
+  - NYXImagesKit (= 2.3)
+  - Overline (= 0.4.0)
+  - UIColor-HexString (= 1.1.0)
+
+SPEC CHECKSUMS:
+  BlocksKit: 4439e7f30a9f90743462ca63545a15c1f4304cef
+  CocoaLumberjack: 55c22a2b8bde7a29c568ab4015b5874216524d70
+  GPUImage: cecb0830bb9428f50192042e3c7b53810f51388e
+  iCarousel: 5acab560f10dc13da2440c89f35a0ad278b5147d
+  NYXImagesKit: 1c9f228ae78fab475d267b3b3a1308e0fba11731
+  Overline: 59632dc384d560f5d0a160228808e69d7ea9c417
+  UIColor-HexString: a9eabf02c1a2f9036ed6ac9cb2a3ea086f3b39e4
+
+COCOAPODS: 0.34.4
